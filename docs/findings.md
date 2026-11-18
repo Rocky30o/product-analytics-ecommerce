@@ -17,3 +17,14 @@ Metrics: Daily active users were steady at 25-30K, with a spike to about
 like a tracking or logging gap, so revenue, conversion and AOV for 14-17 Nov
 should be treated with caution. I would confirm with the data engineering
 team whether purchases were logged late.
+
+A/B test (Cookie Cats, 90,189 players): Moving the first gate from level 30
+to level 40 lowered Day-7 retention from 19.02% to 18.20% (-0.82 percentage
+points, -4.3% relative, p = 0.0016). The 95% confidence interval for the
+difference is [-1.33%, -0.31%], and a bootstrap check gave [-1.33%, -0.32%],
+so the drop is unlikely to be chance. Game rounds, the guardrail metric,
+also fell slightly (52.5 to 51.3). Recommendation: do not ship gate_40.
+Caveat: the effect is under 1 percentage point, and the data has no revenue
+column, so I could not check whether gate_40 earns more from in-app purchases.
+Next step: if revenue data exists, test whether the revenue gain, if any,
+outweighs the retention loss.
