@@ -65,3 +65,5 @@ docs/        assumptions and findings
 ## Data sources
 - REES46 eCommerce behavior data from a multi-category store (Kaggle, mkechinov)
 - Mobile Games A/B Testing, Cookie Cats (Kaggle)
+
+**Author:** Ashmit Kumar Sahu | [LinkedIn](https://www.linkedin.com/in/ashmit-kumar-sahu-7a2104265/)
