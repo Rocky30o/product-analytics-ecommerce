@@ -10,3 +10,10 @@ on 1 Nov, so some returning customers look like new users. Even so, the
 downward trend suggests later-month visitors (possibly Black Friday shoppers)
 were less likely to return. I would compare retention by acquisition type and
 test a win-back email for first-time buyers.
+
+Metrics: Daily active users were steady at 25-30K, with a spike to about
+48K on 16-17 Nov. Purchase events are missing on 15 Nov (0 orders despite
+37K active users), and purchases on 16-17 Nov are 3-8x normal. This looks
+like a tracking or logging gap, so revenue, conversion and AOV for 14-17 Nov
+should be treated with caution. I would confirm with the data engineering
+team whether purchases were logged late.
