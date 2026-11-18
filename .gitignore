@@ -1,7 +1,8 @@
 data/raw/
-data/processed/*.csv
-*.parquet
+data/processed/
 *.duckdb
+*.duckdb.wal
+*.parquet
 .ipynb_checkpoints/
 __pycache__/
 venv/
